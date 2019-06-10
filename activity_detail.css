@@ -5,8 +5,8 @@
 
  *{margin: 0; padding: 0;}
 
- html, body{position: absolution; width: 100%; height: 100%;}
-@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+ html, body{position: absolute; width: 1080px; height: 1923.6px;}
+/* @media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
 @media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
 @media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
 @media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
@@ -15,37 +15,27 @@
 @media screen and (min-width:800px) and (max-width:849px){html{font-size:24.5px}}
 @media screen and (min-width:850px) and (max-width:899px){html{font-size:25.5px}}
 @media screen and (min-width:900px) and (max-width:949px){html{font-size:27px}}
-@media screen and (min-width:950px){html{font-size:28px}}
+@media screen and (min-width:950px){html{font-size:28px}} */
 
-body{overflow:-Scroll;overflow-x:hidden; background-color: #f5f5f5; font-family: FZLTHJW--GB1-0; color: #000000; /*font-family: "微软雅黑";*/}/*移动端*/
+body{ overflow-x:hidden; background-color: #f5f5f5; font-family: FZLTHJW--GB1-0; color: #000000;}/*移动端*/
 
- /*
- .float_left {float: left; display: inline;}
- .float_right{float: right; display: inline;}
- .clear_float:after{display: block; clear: both; content: ""; visibility: hidden; height: 0; }
- .clear_float{zoom:1}
-*/
-
- .main{width: 100%; height: 100%;}
-    .detail{width: 100%; height: 63%; background-color: #fff;}
-        .banner{width: 100%; height: 56.37%; text-align: center;}
-            .activityImage{max-width: 100%; max-height: 100%; margin:0}
-            .backwards{width: 2.3%; height: 2.2%; position: absolute; left: 2.8%; top: 2.6%; filter:brightness(60%);}
-        .infomation{width: 90.7%; height: 36.02%; margin-left: 4.63%;}
-            .activityTitle{font-size: 1.714rem; line-height: 2.286rem; margin-top: 8%}
-            .activityDescription{display: block; font-size: 1rem; line-height: 1.36rem; margin-top: 2%}
-    .status{width: 100%; height: 28.4%; position: relative; top: 1.04%; background-color: #fff}
-        .joinStatus {width: 3.929rem; height: 1.786rem; position: relative; left: 4.68%; top: 8.76%;
-            text-align: center; font-size: 1.074rem; color: aliceblue;
-            border-radius:5px; }
-        .joined {background-color: lightsalmon;}
-        .unjoined {background-color: grey}
-        .activityLotteryStrattime{margin-left: 1.5rem; margin-top: 2.5rem; font-size: 1rem; color: rgba(0,0,0,0.40);}
-        .codeList{display: block; width: 6rem; position: relative; left: 4.6%; top: 5.55%; font-size: 1rem; color: rgba(0,0,0,0.80);}
-    .bottom{width: 100%; height: 7.59%; position: relative; top: 1.04%;}
-        .price{width: 58.8%; height: 100%; color: rgba(255,255,255,0.80); background: #FFCC17; float: left;}
-            .priceText{width: 95.17%;height:100%; position: relative; left: 4.83%;}
-                .flag{font-size: 1.714rem; float: left; position: relative; top: 20%}
-                .amount{font-size: 2.286rem; position: relative; left: -2%;top: 18.29%}
-        .buy{text-align: center; width: 41.2%; height: 100%; font-size: 1.286rem; color: rgba(255,255,255,0.80); background-color: #D23B16; float: right;}
-            .buyButton{position: relative; top: 26.29%}
+ .main{ width: 1080px; height: 1865.5px; margin: 0; padding-top: 58.1px; }
+ .banner{ width: 1080px; height: 664.9px; margin: 0; padding: 0; }
+   .activityImage{ width: 100%; height: 100%; }
+   .backwards{ width: 24.4px; height: 43.2; margin: 0; position: absolute; left: 30px; top: 98.8px; filter: brightness(50%);}
+ .infomation{ width: 1080px; height: 514.6px; margin: 0; padding: 0; background-color: #fff; }
+   .activityTitle{ margin: 0; padding-left: 50px; padding-top: 100.9px; font-size: 48px; letter-spacing: 0; line-height: 64px; }
+   .activityDescription{ display: block; width: 973px; margin: 0; padding-left: 50px; padding-top: 24px; line-height: 28px; letter-spacing: 0; }
+ .status{ width: 1080px; height: 526px; margin: 0; padding: 0; position: relative; top: 20px; background-color: #fff; }
+   .joinStatus{ width: 110px; height: 50px; margin: 0; position: relative; left: 50.5px; top: 46.1px;
+                text-align: center; font-size: 32px; color: aliceblue; border-radius: 5px; }
+     .joined{ background-color: lightsalmon; }
+     .unjoined{ background-color: grey}
+   .activityLotteryStrattime{ margin: 0; padding-left: 50.5px; padding-top: 76.1px; font-size: 28px; color: rgba(0,0,0,0.40); line-height: 28px; }
+   .codeList{ display: block; margin: 0; padding-left: 50.5px; padding-top: 13.4px; font-size: 28px; color: rgba(0,0,0,0.80); line-height: 28px; }
+ .bottom{ width: 1080px; height: 140px; margin: 0; padding: 0; color: #FFFFFF; }
+   .price{ width: 635px; height: 140px; margin: 0; padding: 0; background: #FFCC17; float: left; }
+     .flag{ margin: 0; padding-left: 30.7px; padding-top: 46px; font-family: ArialMT; font-size: 48px; line-height: 48px; float: left; }
+     .amount{ margin: 0; padding-left: -5px; padding-top: 38px; font-size: 64px; line-height: 64px; }
+   .buy{ width: 445px; height: 140px; margin: 0; padding: 0; background-color: #D23B16; float: right;}
+     .buyButton{ margin: 0; padding-left: 150.5px; padding-top: 54px; font-size: 36px; line-height: 32px; }
